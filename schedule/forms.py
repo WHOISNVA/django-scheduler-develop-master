@@ -30,7 +30,7 @@ class EventForm(SpanForm):
         required=False,
     )
 
-# New comment here as well
+# New comments here as well
     class Meta:
         model = Event
         exclude = ("creator", "created_on", "calendar")
