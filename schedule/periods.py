@@ -17,6 +17,7 @@ weekday_abbrs = []
 
 if settings.FIRST_DAY_OF_WEEK == 1:
     # The calendar week starts on Monday
+    # This is a new comment
     for i in range(7):
         weekday_names.append(WEEKDAYS[i])
         weekday_abbrs.append(WEEKDAYS_ABBR[i])
